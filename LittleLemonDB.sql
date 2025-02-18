@@ -15,11 +15,11 @@ CREATE SCHEMA IF NOT EXISTS `Little_Lemon_DB` DEFAULT CHARACTER SET utf8 ;
 USE `Little_Lemon_DB` ;
 
 -- -----------------------------------------------------
--- Table `Customer`
+-- Table `Customers`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `Customer` ;
+DROP TABLE IF EXISTS `Customers` ;
 
-CREATE TABLE IF NOT EXISTS `Customer` (
+CREATE TABLE IF NOT EXISTS `Customers` (
   `CustomerID` INT NOT NULL AUTO_INCREMENT,
   `CustomerName` VARCHAR(45) NULL,
   `CustomerNumber` VARCHAR(45) NULL,
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `Bookings` (
   INDEX `fk_Bookings_Customer_idx` (`CustomerID` ASC) VISIBLE,
   CONSTRAINT `fk_Bookings_Customer`
     FOREIGN KEY (`CustomerID`)
-    REFERENCES `Customer` (`CustomerID`)
+    REFERENCES `Customers` (`CustomerID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -109,7 +109,8 @@ DROP TABLE IF EXISTS `MenuItems` ;
 
 CREATE TABLE IF NOT EXISTS `MenuItems` (
   `MenuItemID` INT NOT NULL AUTO_INCREMENT,
-  `ItemName` VARCHAR(45) NULL,
+  `CourseName` VARCHAR(45) NULL,
+  `StarterName` VARCHAR(45) NULL,
   `Price` DECIMAL(8,2) NULL,
   `MenuID` INT NOT NULL,
   PRIMARY KEY (`MenuItemID`),
