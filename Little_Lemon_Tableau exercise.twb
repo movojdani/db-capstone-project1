@@ -53,6 +53,20 @@
           </columns>
         </relation>
         <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Orders]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U10001:no:A1:U2147483647:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
           <metadata-record class='column'>
             <remote-name>Row Number</remote-name>
             <remote-type>20</remote-type>
@@ -66,6 +80,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Order ID</remote-name>
@@ -81,6 +96,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Order Date</remote-name>
@@ -95,6 +111,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Delivery Date</remote-name>
@@ -109,6 +126,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer ID</remote-name>
@@ -124,6 +142,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Customer Name</remote-name>
@@ -139,6 +158,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>City</remote-name>
@@ -154,6 +174,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country</remote-name>
@@ -169,6 +190,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Postal Code</remote-name>
@@ -184,6 +206,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Country Code</remote-name>
@@ -199,6 +222,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Cost</remote-name>
@@ -214,6 +238,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sales</remote-name>
@@ -229,6 +254,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Quantity</remote-name>
@@ -243,6 +269,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Discount</remote-name>
@@ -258,6 +285,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Delivery Cost</remote-name>
@@ -273,6 +301,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Course Name</remote-name>
@@ -288,6 +317,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Cuisine Name</remote-name>
@@ -303,6 +333,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Starter Name</remote-name>
@@ -318,6 +349,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Desert Name</remote-name>
@@ -333,6 +365,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Drink</remote-name>
@@ -348,6 +381,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Sides</remote-name>
@@ -363,20 +397,7 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-          </metadata-record>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Orders]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>2</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:U10001:no:A1:U2147483647:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
+            <object-id>[Orders_2D7A58B59075454899D9187CC35C36A0]</object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -3791,8 +3812,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='12' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Customers Sales' w='82400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3871,7 +3892,7 @@
       </viewpoint>
       <simple-id uuid='{5B6C29F0-7A47-40A4-BC3A-96AF2F4D6222}' />
     </window>
-    <window class='worksheet' name='Profit chart'>
+    <window class='worksheet' maximized='true' name='Profit chart'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -3907,7 +3928,7 @@
       </viewpoint>
       <simple-id uuid='{58659E81-62B7-4177-BDD1-CE943551825D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sales Bubble Chart'>
+    <window class='worksheet' name='Sales Bubble Chart'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4013,7 +4034,7 @@
         </viewpoint>
         <viewpoint name='Sales Bubble Chart' />
       </viewpoints>
-      <active id='3' />
+      <active id='-1' />
       <simple-id uuid='{928C7C01-FB0C-4E29-BF22-1AE6FBCA2B06}' />
     </window>
   </windows>
